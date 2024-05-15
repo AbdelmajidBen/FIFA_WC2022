@@ -1,0 +1,6 @@
+prenom=['jeloli','hamid','kenza']
+dic={k:v for k,v in enumerate(prenom)}
+ages=[14,16,19]
+alls={pr:ag for pr,ag in zip(prenom,ages)}
+for i in alls.keys():
+    print(i)
